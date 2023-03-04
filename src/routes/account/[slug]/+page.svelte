@@ -1,6 +1,6 @@
 <script lang="ts">
   //@ts-ignore;
-  import img from '$lib/assets/landscape.jpg?webp&width=1200';
+  import img from '$lib/assets/landscape.webp?webp&width=1200';
 </script>
 
 <div>Some account</div>

@@ -2,7 +2,7 @@
   import { fly } from 'svelte/transition';
   import { onDestroy } from 'svelte';
   //@ts-ignore
-  import img from '$lib/assets/photo.jpg?webp';
+  import img from '$lib/assets/photo.webp?webp';
 
   let count = 0;
   let delay = 0;
