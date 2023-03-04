@@ -1,0 +1,34 @@
+/* Ignor the @font-face for now: will need to get the proper typeface from Marketing */
+/* 
+@font-face {
+  font-family: "Haas Grot Text";
+  src: url("./fonts/HaasGrotTextR-55Roman.woff2") format("woff2"),
+    url("./fonts/HaasGrotTextR-55Roman.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Haas Grot Text";
+  src: url("./fonts/HaasGrotTextR-56Italic.woff2") format("woff2"),
+    url("./fonts/HaasGrotTextR-56Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Haas Grot Text";
+  src: url("./fonts/HaasGrotTextR-65Medium.woff2") format("woff2"),
+    url("./fonts/HaasGrotTextR-65Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+ */
+
+body {
+  padding: 1rem;
+  background-color: var(--color-surface-70, #f3eeea);
+}
