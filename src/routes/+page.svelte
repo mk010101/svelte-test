@@ -18,6 +18,12 @@
     arr = arr;
   }
 
+  let attr = 'square';
+
+  function setAttr() {
+    attr = attr === 'round' ? 'square' : 'round';
+  }
+
   function goTo(e: MouseEvent) {
     goto('/about');
   }
@@ -31,6 +37,7 @@
 <h3>Clicked: {count}</h3>
 <p>{arr.join('.')}</p>
 <button on:click={update}>Click</button>
+<button on:click={setAttr}>setAttr</button>
 <div>
   {#each arr as n}
     <!-- <span>{n}/</span> -->
@@ -48,6 +55,6 @@
 <p />
 <form action="">
   <cmc-textfield placeholder="test-tf" template="** / ***" />
-  <cmc-check type="checkbox" variant="panel" kaka="suka">My check</cmc-check>
+  <cmc-check type="checkbox" variant="panel" shape={attr} iconSize="m" iconColor="#990000">My check</cmc-check>
 </form>
 <div>123</div>
